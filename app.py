@@ -72,7 +72,7 @@ def ask_question(question):
 
 # UI Gradio
 with gr.Blocks(theme=gr.themes.Soft()) as demo:  # Tambahkan tema untuk UI yang lebih baik
-    gr.Markdown("## 📄 RAG PDF Q&A - LangChain + Groq API Key")
+    gr.Markdown("## 📄 RAG PDF Q&A - LangChain + Groq API Key (nanda)")
     
     with gr.Row():
         with gr.Column(scale=3):
@@ -95,4 +95,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:  # Tambahkan tema untuk UI yang 
 
 # Jalankan aplikasi
 if __name__ == "__main__":
-    demo.launch(share=False)  # Set share=True jika ingin membagikan aplikasi secara publik
+    demo.launch(share=True)  # Set share=True jika ingin membagikan aplikasi secara publik
