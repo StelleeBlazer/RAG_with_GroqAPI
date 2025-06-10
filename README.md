@@ -93,7 +93,7 @@ venv\Scripts\activate    # On Windows
 # Step 5: Run the application
 python app.py
 
-### 5. notes
+## notes
 - If Gradio fails to share the link publicly, ensure your Windows Defender or firewall is not blocking it.
 - Use a stable internet connection to access Groq API.
 - This app is for educational and prototype purposes only.
